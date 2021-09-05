@@ -1,0 +1,23 @@
+.work {
+    background:linear-gradient(to bottom, #121214,#141414,#121214);
+
+    height: 100vh;
+}
+.work a {
+    color: black;
+    text-decoration: none;
+}
+.work h1 {
+    text-align: center;
+}
+.work svg {
+    margin: 15px;
+}
+.work svg:hover {
+    color: gray !important;
+}
+.logout ,
+.loggedin h2,
+.loggedin span{
+    color: white;
+}

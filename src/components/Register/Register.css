@@ -1,0 +1,83 @@
+.div-input {
+    border:0.5px solid #2a8f2a;
+    width: 350px;
+    position: relative;
+    left: 25%;
+    margin-top: 150px;
+    backdrop-filter:blur(15px);
+    padding: 45px;
+    padding-left:63px; 
+    background-color:#151515 ;
+    opacity: 0.92;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    caret-color: #00B700;
+    animation: log infinite 3s ease ;
+  }
+  @keyframes log {
+      from {background-color: #303030;color: black;}
+      to {background-color: #151515;}
+    }
+  .div-input:hover {
+    background-color: #131313;
+  }
+  div > .input,
+  div > .inputButton {
+    display:flex;
+    margin-top: 15px;
+    padding: 8px 20px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    color: #E1E1C2;
+    letter-spacing: 1px;
+    background-color: #303030;
+    border: 0.5px dotted #454545;
+    font-size: 15px;
+    font-family: 'Sen', sans-serif;
+  }
+  .inputButton {
+    color: #e0d7e0;
+    letter-spacing: 1px;
+  }
+  .login {
+    padding:10px;
+    font-family: 'Sen', sans-serif;
+    margin-right:5px;
+    font-size:28px;
+    padding: 7px 25px;
+    -moz-box-shadow: -1px 1px 5px #e0d7e0;
+    -webkit-box-shadow: -1px 1px 5px #e0d7e0;
+    box-shadow: -1px 1px 5px #e0d7e0;
+  }
+  .register {
+    padding:10px;
+    font-family:sans-serif;
+    font-size:28px;
+    padding: 7px 25px;
+    -moz-box-shadow: -1px 1px 5px #e0d7e0;
+    -webkit-box-shadow: -1px 1px 5px #e0d7e0;
+     box-shadow: -1px 1px 5px #e0d7e0;
+  }
+  .inputButton:hover {
+    background-color: #2a8f2a;
+  }
+  .btn-login {
+    padding: 8px 20px;
+    margin-top: 15px;
+    margin-left: 2px;
+    border-radius: 4px;
+    outline: none;
+    border: 0.5px dotted #454545;
+    background-color: #202020;
+    color: #7c7a7a;
+    font-weight: 600;
+    font-family: 'Sen', sans-serif;
+    text-transform: uppercase;
+  }
+  .btn-login:hover {
+    background-color: #E1E1C2;
+    cursor: pointer;
+    color: #151515;
+  }
+  
