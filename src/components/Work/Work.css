@@ -1,23 +1,74 @@
 .work {
     background:linear-gradient(to bottom, #121214,#141414,#121214);
-
     height: 100vh;
 }
 .work a {
     color: black;
     text-decoration: none;
 }
-.work h1 {
-    text-align: center;
-}
 .work svg {
-    margin: 15px;
+    margin-top: 25px;
+    margin-left: 5px;
 }
 .work svg:hover {
     color: gray !important;
+    transition: 200ms ease-in;
 }
 .logout ,
 .loggedin h2,
 .loggedin span{
     color: white;
 }
+.left-side,.right-side {
+    height: 87.5vh;
+    margin-top: 12.5vh;
+    width: 50%;
+    position: fixed;
+    top: 0;
+    overflow-x: hidden;
+ }
+ .left-side {
+    left: 0;
+    border-top-right-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .left-side img {
+     height:87.5vh;
+     width: 100vw;
+     object-fit: cover;
+ }
+ .right-side {
+    right: 0;
+    background-color: #050505;
+    text-align: center;
+    border-top-left-radius: 50px;
+ }
+ .right-side h1 {
+     margin: 10vh;
+     font-size: 3.5vw;
+ }
+ .right-side a {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #f7fff7;
+    font-size: 2.5vw;
+    width: auto;
+    text-align: left;
+ }
+ .right-side a::before {
+    content: "|";
+    border-color: black;
+    border-style: solid;
+    margin-right: 3px;
+    color: #FFBA10;
+ }
+ .right-side a:hover {
+     transition: 300ms ease;
+     transform: translate(-5%);
+     color: #FFBA10;
+ }

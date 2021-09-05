@@ -10,20 +10,24 @@ const AboutUs = () => {
     
     return (
         <div className='about-us'>
-            <div className="circle top" id='hovertext' data-hover="Work page">
+            <div className="circle top" id='hovertext-top' data-hover="Work">
                 <div className="circle-inner" style={{borderColor: 'black'}}><ButtonTop /></div>
             </div>
             <div className="circle left" id='hovertext' data-hover="Hello, this is the tooltip">
                 <div className="circle-inner" style={{borderColor: 'black'}}><ButtonLeft /></div>
             </div>
-            <div className="circle right" id='hovertext-right' data-hover="Hello, this is the tooltip">
+            <div className="circle right" id='hovertext-right' data-hover="Gallery">
                 <div className="circle-inner" style={{borderColor: 'black'}}><ButtonRight /></div>
             </div>
-            <div className="circle bottom" id='hovertext' data-hover="Hello, this is the tooltip">
+            <div className="circle bottom" id='hovertext' data-hover="Contact Page">
                 <div className="circle-inner" style={{borderColor: 'black'}}><ButtonBottom /></div>
             </div>
             <Typed className='title-cover'
                     strings={[
+                              '1',
+                              '2',
+                              '3',
+                              'We are...',
                               'Art Agency A|A',
                               'Start Exploring',
                               'Discover New Design',

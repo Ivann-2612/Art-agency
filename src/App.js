@@ -7,6 +7,7 @@ import AboutUs from './components/AboutUs/AboutUs'
 import { useState } from 'react'
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 import Work from './components/Work/Work'
+import Contact from './components/Contact/Contact'
 
 
 function App() {
@@ -21,9 +22,10 @@ function App() {
                <>
              
                <div className='loggedin'>
-                 <h2> Username: <span style={{textTransform:'uppercase'}}>{user.username}</span> </h2>&nbsp;
-                 <button className='logout' onClick={() => setUser(null)}>LOGOUT</button> 
-               </div>               
+                 <h2> User: <span style={{textTransform:'uppercase'}}>{user.username}</span> </h2>&nbsp;
+                 
+               </div> 
+               <button className='logout' onClick={() => setUser(null)}>LOGOUT</button>               
                </>
                :
                <> 
@@ -50,10 +52,10 @@ function App() {
            <Route exact path="/work">
                <Work loggedIn={user} />
            </Route>
-           {/*
-           <Route exact path="/pagethree">
-               <PageThree loggedIn={user} />
-           </Route> */}
+           
+           <Route exact path="/contact">
+               <Contact loggedIn={user} />
+           </Route>
           
        
    </>    

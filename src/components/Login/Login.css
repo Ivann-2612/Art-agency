@@ -5,15 +5,16 @@
 .div-input {
     width: 350px;
     position: relative;
-    left: 38%;
-    margin-top: 250px;
+    margin-top: 28vh;
+    margin-left: auto;
+    margin-right: auto;
     backdrop-filter:blur(15px);
     padding: 45px;
     padding-left:63px; 
     background-color:#151515 ;
     opacity: 0.92;
-    /* border-top-left-radius: 10px;
-    border-bottom-right-radius: 10px; */
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     caret-color: #00B700;
     animation: log infinite 3s ease ;
   }
@@ -101,21 +102,21 @@
     color: #E1E1C2;
   }
   .loggedin {
-    padding: 12px 15px;
+    padding: 7px 13px;
     float: right;
     position: absolute;
     top: 1%;
-    right: 0.5%;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    font-size: 15px;
+    right: 7%;
+    height: 35.6px;
     border-radius: 5px;
     backdrop-filter:blur(15px);
     margin-top: 2px;
-    margin-left: 2px;
-    background-color: #121212;
+    margin-right: 10px;
+    background-color: #323232;
   }
   span {
     margin-right: 7px;
-    vertical-align: middle;
     color: #16171C;
     font-weight: 600;
     font-family: 'Sen';
@@ -123,18 +124,19 @@
 
   }
   .logout {
-    padding: 6px 12px;
+    padding: 5px 13px;
     background-color: gray;
     border-radius: 5px;
     color: #16171C;
     border: none;
+    height: 35px;
     outline: none;
-    margin-top: 16px;
+    margin-top: 1px;
     font-weight: 600;
     cursor: pointer;
     position: absolute;
-    left: 50%;
-    transform: translate(-50%);
+    top: 1.2%;
+    right: 1.5%;
     letter-spacing: 1px;
     font-family: 'Sen';
   }

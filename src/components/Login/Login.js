@@ -3,6 +3,7 @@ import { useHistory } from "react-router"
 import { Link } from "react-router-dom"
 import { getAllUsers } from "../../service"
 import './Login.css'
+// import CountUp from 'react-countup'
 
 
 const Login = ({ setUser }) => {
@@ -10,7 +11,7 @@ const Login = ({ setUser }) => {
     const [username,setUsername] = useState('')
     const [password,setPassword] = useState('')
     const history = useHistory()
-
+    
     return (
         <div className='form-wrapper'>
             <form onSubmit={(e) => {
@@ -26,11 +27,12 @@ const Login = ({ setUser }) => {
                     }
                 })
             }}>
+                {/* <CountUp delay={2} start={0} end={100} color='red' /> */}
                 <div className='div-input'>
-                <input className='input' required type="text" placeholder="Username..." onChange={e => setUsername(e.target.value)}/>
-                <input className='input' required type="password" placeholder="Password..." onChange={e => setPassword(e.target.value)}/>
-                <input className='btn-login' type="submit" value="Login" />
-                <Link className='not-registered' to='/register'>Not registered?</Link>
+                    <input className='input' required type="text" placeholder="Username..." onChange={e => setUsername(e.target.value)}/>
+                    <input className='input' required type="password" placeholder="Password..." onChange={e => setPassword(e.target.value)}/>
+                    <input className='btn-login' type="submit" value="Login" />
+                    <Link className='not-registered' to='/register'>Not registered?</Link>
                 </div>
             </form>
         </div>
