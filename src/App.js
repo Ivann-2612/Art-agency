@@ -8,7 +8,7 @@ import { useState } from 'react'
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 import Work from './components/Work/Work'
 import Contact from './components/Contact/Contact'
-
+import Gallery from './components/Gallery/Gallery'
 
 function App() {
 
@@ -56,7 +56,9 @@ function App() {
            <Route exact path="/contact">
                <Contact loggedIn={user} />
            </Route>
-          
+           <Route exact path="/gallery">
+               <Gallery loggedIn={user} />
+           </Route>
        
    </>    
  </Switch>  

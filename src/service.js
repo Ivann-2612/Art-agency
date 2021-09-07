@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-export const key = 'wSuf86m2SbqRlxRSsetTfPkc9GJuvSk0wD7SVj0HhcI'
+export const getImages = () => axios.get('https://api.unsplash.com/photos/?client_id=4zymYC-8Ik3RzgXFJYB0OKGA4jW03lOfKDb9BySlSxA')
 export const getData = () => axios.get('https://jsonplaceholder.typicode.com/posts')
 export const getAllUsers = () => axios.get('http://localhost:3005/users')
 

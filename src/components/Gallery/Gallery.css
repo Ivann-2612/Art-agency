@@ -1,0 +1,45 @@
+
+.images-wrap {
+    margin-top: 60px;
+    background-color: #252525;
+    overflow: hidden;
+}
+.wrapper h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+.wrapper .hr {
+    width: 100%;
+    border: 0.5px solid rgb(71, 71, 71);
+}
+.each-slide {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.div-card h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+.div-card h4 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+.div-card p {
+    text-align: end;
+}
+img {
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
+    border: 3px solid white;
+}
+
+.arrow {
+    margin-top: 25px;
+    margin-left: 5px;
+}
+.arrow:hover {
+    color: red !important;
+    transition: 200ms ease-in;
+}
