@@ -13,7 +13,7 @@ const AboutUs = () => {
             <div className="circle top" id='hovertext-top' data-hover="Work">
                 <div className="circle-inner" style={{borderColor: 'black'}}><ButtonTop /></div>
             </div>
-            <div className="circle left" id='hovertext' data-hover="Hello, this is the tooltip">
+            <div className="circle left" id='hovertext' data-hover="Shop">
                 <div className="circle-inner" style={{borderColor: 'black'}}><ButtonLeft /></div>
             </div>
             <div className="circle right" id='hovertext-right' data-hover="Gallery">

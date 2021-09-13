@@ -197,3 +197,9 @@
   #hovertext-top {
     width: 100px;
   }
+  @media (max-width:400px) {
+    .title-cover {
+      font-size: 20px;
+      text-align: center;
+    }
+  }

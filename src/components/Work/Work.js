@@ -9,11 +9,10 @@ const Work = () => {
         <div className='work'>
             <Link to="/aboutus"><BiLeftArrow color="white" fontSize="2em" /></Link>
         </div>
-        <div className='left-side'>
-                <img src={HandMade} alt='hand-made'/>
-        </div>
+       
         <div className='right-side'>
-             <h1>My work</h1>
+       
+             <h1>My work</h1> <img src={HandMade} alt='hand-made'/>
              <Link to='/aboutus'>Clipper</Link>
              <Link to='/aboutus'>Red Agency</Link>
              <Link to='/aboutus'>My Accountant</Link>

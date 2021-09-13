@@ -9,6 +9,9 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 import Work from './components/Work/Work'
 import Contact from './components/Contact/Contact'
 import Gallery from './components/Gallery/Gallery'
+import Shop from './components/Shop/Shop'
+import Search from './components/Search/Search'
+
 
 function App() {
 
@@ -20,10 +23,8 @@ function App() {
            {
                user ? 
                <>
-             
                <div className='loggedin'>
                  <h2> User: <span style={{textTransform:'uppercase'}}>{user.username}</span> </h2>&nbsp;
-                 
                </div> 
                <button className='logout' onClick={() => setUser(null)}>LOGOUT</button>               
                </>
@@ -58,6 +59,12 @@ function App() {
            </Route>
            <Route exact path="/gallery">
                <Gallery loggedIn={user} />
+           </Route>
+           <Route exact path="/shop">
+               <Shop loggedIn={user} />
+           </Route>
+           <Route exact path="/search">
+               <Search loggedIn={user} />
            </Route>
        
    </>    

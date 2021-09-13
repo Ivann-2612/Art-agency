@@ -27,7 +27,6 @@ const Login = ({ setUser }) => {
                     }
                 })
             }}>
-                {/* <CountUp delay={2} start={0} end={100} color='red' /> */}
                 <div className='div-input'>
                     <input className='input' required type="text" placeholder="Username..." onChange={e => setUsername(e.target.value)}/>
                     <input className='input' required type="password" placeholder="Password..." onChange={e => setPassword(e.target.value)}/>

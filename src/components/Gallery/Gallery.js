@@ -29,10 +29,10 @@ const Gallery = () => {
                             return (
                                 <div key={i} className="each-slide">
                                 <div className='div-card'>
-                                <h2>{el.alt_description.slice(0,37)}</h2>
-                                    <h4>Likes: {el.likes} 👍</h4> 
+                                <h2>{el?.alt_description.slice(0,40)}</h2>
+                                    <h4>Likes: {el?.likes} 👍</h4> 
                                     
-                                <img src={el.urls.small} alt='alt' />
+                                <img src={el?.urls?.small} alt='alt' />
                                 <p>{el.user.name}</p>
                                 </div>
                             </div>

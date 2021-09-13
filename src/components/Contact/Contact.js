@@ -34,11 +34,14 @@ const Form = () => {
         <button type="submit" value="Send message">Send Message</button>
       </div>
     </form>
-    </div>
-        
-        <div className='right-side-contact'>
-             <h1>My contact</h1>
+    <div className='right-side-contact'>
+             <h1>Vase Stajica 40,
+              Beograd, Serbia <br />
+              +381 65 1111111 <br />
+              studio@art.rs</h1>
         </div>
+    </div>
+
     
     </>
   );
