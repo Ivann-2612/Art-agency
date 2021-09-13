@@ -52,7 +52,7 @@
         display: grid;
        margin-left: 50%;
        transform: translate(-27%);
-        grid-template-columns: repeat(1,60%); 
+        grid-template-columns: repeat(1,100%); 
     }
   }
 @media (min-width:401px) and (max-width:600px) {

@@ -31,8 +31,6 @@ align-items: center;
     text-align: center;
 }
 img {
-    height: 300px;
-    width: 400px;
     object-fit: cover;
 }
 
@@ -50,7 +48,7 @@ img {
     justify-content: center;
     align-items: center;
     width: 260px; 
-    margin-left: 25%;
+    margin-left: 16%;
     }
     .div-card h4 {
         margin-bottom: 20px;
