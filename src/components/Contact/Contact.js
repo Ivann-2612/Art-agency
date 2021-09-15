@@ -35,10 +35,10 @@ const Form = () => {
       </div>
     </form>
     <div className='right-side-contact'>
-             <h1>Vase Stajica 40,
+             <h1>Vase Pelagica 40,
               Beograd, Serbia <br />
-              +381 65 1111111 <br />
-              studio@art.rs</h1>
+              +381 61 1111111 <br />
+              studiovasa@agmail.com</h1>
         </div>
     </div>
 

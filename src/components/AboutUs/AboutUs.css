@@ -53,12 +53,12 @@
   background-color: #ffbe0b;
 }
 .title-cover {
-    font-size: 4.1vw;
+    font-size: 45px;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 53%;
     text-transform: capitalize !important;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-53%);
     font-family: 'Prata', serif;
 }
 
@@ -197,9 +197,9 @@
   #hovertext-top {
     width: 100px;
   }
-  @media (max-width:400px) {
+  @media (max-width:600px) {
     .title-cover {
-      font-size: 20px;
+      font-size: 25px;
       text-align: center;
     }
   }

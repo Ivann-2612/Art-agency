@@ -37,7 +37,7 @@ const Shop = () => {
                         <p>*{rating?.rate}</p>
                         <img src={image} alt={description} />
                         <div className='buy'><span>$ {price}</span> <span className='shop'>Buy</span></div>
-                        <Link to={'/shop/:id'}>Find more..</Link>
+                        <Link to={'/shop/:id'}>&#8594; About product</Link>
                     </div>
                      ) 
                   })

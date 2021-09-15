@@ -15,6 +15,7 @@
     border-radius: 5px;
     border: 1px solid gray;
     outline: none;
+    box-shadow: 0px 3px 5px #202020;
     background-color: #102020;
     caret-color: antiquewhite;
     color: antiquewhite;
@@ -28,9 +29,20 @@
   
 }
 .card-shop {
-    border: 3px solid #202020;
     padding: 10px 0;
+    background-color: white;
     text-align: center;
+    box-shadow: 0px 3px 5px #202020;
+}
+.card-shop p {
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #202020;
+}
+.card-shop h2,
+.card-shop a {
+    color: #202020;
 }
 .card-shop:hover {
     opacity: 0.7;
@@ -39,6 +51,9 @@
     width: 300px;
     height: 300px;
     margin-left: 0;
+    border-radius: 3px;
+    padding: 0px 30px;
+    /* filter: drop-shadow(0px 1px 2px #eaeaec); */
 }
 .card-shop .buy {
     font-size: 20px;
@@ -51,7 +66,7 @@
     justify-content: space-between;
 }
 .card-shop .buy span {
-    color: #F7fff7;
+    color: #202020;
 }
 .shop {
    background-color: rgb(63, 138, 199);
@@ -64,7 +79,8 @@
     cursor: pointer;
 }
 .card-shop a {
-    color: #F7fff7;
+    color: #202020;
+    font-weight: bold;
     text-decoration: none;
 }
 @media (max-width:600px) {

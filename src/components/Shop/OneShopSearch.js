@@ -34,7 +34,7 @@ const OneNewsSearch = () => {
           <h2>{oneNews?.title ? oneNews?.title : titlePlaceholder}</h2>
           <img src={oneNews?.image ? oneNews?.image : imgPlaceholder} alt='alt' />
           <p>{oneNews?.description ? oneNews?.description.substr(0,maxLength) : contentPlaceholder}....</p>
-          <button  style={{margin:'15px 0',padding:'6px 10px',border:'1px solid white',outline:'none'}} type='button' onClick={handleClick}>Back to list</button>     
+          <button type='button' onClick={handleClick}>Back to list</button>     
         </div>
     )
 }
