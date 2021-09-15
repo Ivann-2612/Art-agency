@@ -10,7 +10,7 @@
 }
 .circle.top {
     top: 0;
-    left: 50%;
+    left: 48%;
     transform: translateX(-50%);
 }
 /* .circle.top:hover {
