@@ -67,7 +67,7 @@
     color: #F7fff7;
     text-decoration: none;
 }
-@media (max-width:400px) {
+@media (max-width:600px) {
     .shop-back-arrow {
         margin-top: 35px;
         margin-left: 20px;
