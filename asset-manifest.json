@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Art-agency/static/css/main.54ba943b.chunk.css",
+    "main.css": "/Art-agency/static/css/main.3daee588.chunk.css",
     "main.js": "/Art-agency/static/js/main.dfb132fb.chunk.js",
     "main.js.map": "/Art-agency/static/js/main.dfb132fb.chunk.js.map",
     "runtime-main.js": "/Art-agency/static/js/runtime-main.3d77af55.js",
@@ -10,7 +10,7 @@
     "static/js/2.5012bf73.chunk.js.map": "/Art-agency/static/js/2.5012bf73.chunk.js.map",
     "index.html": "/Art-agency/index.html",
     "static/css/2.b57b7cfd.chunk.css.map": "/Art-agency/static/css/2.b57b7cfd.chunk.css.map",
-    "static/css/main.54ba943b.chunk.css.map": "/Art-agency/static/css/main.54ba943b.chunk.css.map",
+    "static/css/main.3daee588.chunk.css.map": "/Art-agency/static/css/main.3daee588.chunk.css.map",
     "static/js/2.5012bf73.chunk.js.LICENSE.txt": "/Art-agency/static/js/2.5012bf73.chunk.js.LICENSE.txt",
     "static/media/hand-made.adff61f5.jpg": "/Art-agency/static/media/hand-made.adff61f5.jpg"
   },
@@ -18,7 +18,7 @@
     "static/js/runtime-main.3d77af55.js",
     "static/css/2.b57b7cfd.chunk.css",
     "static/js/2.5012bf73.chunk.js",
-    "static/css/main.54ba943b.chunk.css",
+    "static/css/main.3daee588.chunk.css",
     "static/js/main.dfb132fb.chunk.js"
   ]
 }
