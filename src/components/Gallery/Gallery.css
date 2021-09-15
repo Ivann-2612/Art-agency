@@ -32,6 +32,7 @@ align-items: center;
 }
 img {
     object-fit: cover;
+    width: 100%;
 }
 
 .arrow {
@@ -44,11 +45,8 @@ img {
 }
 @media (max-width:600px) {
     img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 260px; 
-    margin-left: 16%;
+   height:auto;
+    max-width: 100%; 
     }
     .div-card h4 {
         margin-bottom: 20px;

@@ -11,6 +11,7 @@ import Contact from './components/Contact/Contact'
 import Gallery from './components/Gallery/Gallery'
 import Shop from './components/Shop/Shop'
 import Search from './components/Search/Search'
+import OneShopSearch from './components/Shop/OneShopSearch'
 
 
 function App() {
@@ -62,6 +63,9 @@ function App() {
            </Route>
            <Route exact path="/shop">
                <Shop loggedIn={user} />
+           </Route>
+           <Route exact path="/shop/:id">
+             <OneShopSearch /> 
            </Route>
            <Route exact path="/search">
                <Search loggedIn={user} />

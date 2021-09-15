@@ -146,14 +146,18 @@
       position: absolute;
       top: 0.9%;
       right: 2.5%;
-      font-size: 0.8rem;
+      font-size: 0.6rem;
+      height: 28px;
+      padding: 5px 10px;
+      text-align: center;
     }
     .loggedin {
       position: absolute;
       left: 2.5%;
-      font-size: 0.8rem;
+      font-size: 0.6rem;
       width: 120px;
-      padding: 7px;
+      height: 28px;
+      padding: 5px;
       text-align: center;
     }
     .div-input {

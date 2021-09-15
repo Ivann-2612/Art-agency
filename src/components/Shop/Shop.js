@@ -6,12 +6,15 @@ import { BiLeftArrow } from "react-icons/bi"
 
 const Shop = () => {
 
-    const [shop, setShop] = useState([])
+    
+    const [resultOfSearch,setResultOfSearch] = useState()
+    const [search,setSearch] = useState('')
 
     useEffect(() => {
         getAllBooks().then(res => {
             //console.log(res.data[0])
-            setShop(res.data)
+           
+            setResultOfSearch(res.data)
          })
     },[])
  
@@ -19,17 +22,22 @@ const Shop = () => {
         <>
         <div className='shop-back-arrow'>
             <Link to="/aboutus"><BiLeftArrow color="white" fontSize="2em" /></Link>
+            <input type='search' placeholder='search...' onChange={(e) => {setSearch(e.target.value.toLowerCase())}} />
+
         </div>
         
         <div  className='div-shop'>
-              {
-                  shop.map((item,id) => {
+           
+              {                
+                   resultOfSearch?.filter((value) => value?.title.toLowerCase().includes(search))
+                   .map(({title,description,image,source,rating,id,price}) => {
                      return (
                     <div className='card-shop' key={id}>
-                        <h2>{item?.title.slice(0,22)}</h2>
-                        <p>*{item?.rating?.rate}</p>
-                        <img src={item?.image} alt={item?.description} />
-                        <div className='buy'><span>$ {item?.price}</span> <span className='shop'>Buy</span></div>
+                        <h2>{title.slice(0,20)}</h2>
+                        <p>*{rating?.rate}</p>
+                        <img src={image} alt={description} />
+                        <div className='buy'><span>$ {price}</span> <span className='shop'>Buy</span></div>
+                        <Link to={'/shop/:id'}>Find more..</Link>
                     </div>
                      ) 
                   })
